@@ -1,0 +1,57 @@
+body{
+	font-family: Helvetica;
+}
+header{
+	width: 100%;
+	height: 100px;
+	margin-top: -21px;
+	color: #ecf0f1;
+	border: 2px solid #bdc3c7;
+	padding-top: 1em;
+	text-align: center;
+}
+.name {
+	height: 20px;
+}
+header h1{
+	/*border: 1px solid black;*/
+/*	display: inline;
+*/}
+nav {
+	width: 20%;
+	height: 40px;
+/*	border: 1px solid black;
+*/	display: inline-block;
+}
+nav ul {
+	text-align: left;
+}
+nav li {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	margin-right: 1em;
+
+}
+.silver {
+	color: #34495e;
+}
+.river{
+	color: #3498db;
+}
+#about{
+	height: 550px;
+	width: 100%;
+/*	border: 1px solid black;	
+*/	padding-top: 1em; 
+	text-align: center;
+	background: url("https://dl.dropboxusercontent.com/u/71782785/background.JPG");
+	background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+img{
+	border-radius: 100%;
+}
